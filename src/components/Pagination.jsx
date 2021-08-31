@@ -1,7 +1,5 @@
 import React from 'react'
 
-
-
 const Pagination = ({prev, next, onPrevious, onNext}) => {
 
     const handlePrevious = () => {
@@ -29,7 +27,6 @@ const Pagination = ({prev, next, onPrevious, onNext}) => {
                         </li>
                     ) : null
                 }
-                
                 
             </ul>
         </nav>
